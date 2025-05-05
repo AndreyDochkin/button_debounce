@@ -1,3 +1,12 @@
+/**
+ * @file    button_debounce.h
+ * @author  Andrei Dochkin
+ * @brief   Debounce handling for mechanical buttons.
+ *
+ * This module provides a simple interface for debouncing button input.
+ * It tracks raw and stable states, detects edge transitions, and supports
+ * configurable debounce timing and active level (HIGH or LOW).
+ */
 #ifndef BUTTON_DEBOUNCE_H
 #define BUTTON_DEBOUNCE_H
 
